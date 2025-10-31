@@ -20,15 +20,6 @@
         "NSHealthUpdateUsageDescription": "100% needs to save your workout data to HealthKit."
       }
     },
-    "android": {
-      "icon": "./assets/icon.png",
-      "edgeToEdgeEnabled": true,
-      "package": "com.hundred.app",
-      "permissions": [
-        "android.permission.ACTIVITY_RECOGNITION",
-        "android.permission.BODY_SENSORS"
-      ]
-    },
     "web": {
       "favicon": "./assets/icon.png"
     }
