@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "100%",
+    "slug": "hundred-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a1a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hundred.app",
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "100% needs access to your heart rate data to track your workout effort levels.",
+        "NSHealthUpdateUsageDescription": "100% needs to save your workout data to HealthKit."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1a1a1a"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.hundred.app",
+      "permissions": [
+        "android.permission.ACTIVITY_RECOGNITION",
+        "android.permission.BODY_SENSORS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
+
