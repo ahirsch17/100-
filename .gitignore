@@ -22,3 +22,20 @@ build/
 *.tgz
 .cache/
 
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Android
+android/app/build/
+android/.gradle/
+android/local.properties
+android/app/release/
+
+# macOS
+.DS_Store
+

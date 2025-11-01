@@ -4,11 +4,11 @@
     "slug": "hundred-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./screens/Images/Icon.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": false,
     "splash": {
-      "image": "./screens/Images/Icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#1a1a1a"
     },
@@ -21,7 +21,7 @@
       }
     },
     "web": {
-      "favicon": "./screens/Images/Icon.png"
+      "favicon": "./assets/icon.png"
     }
   }
 }
